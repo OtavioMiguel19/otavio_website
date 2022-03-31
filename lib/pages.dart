@@ -40,7 +40,7 @@ class _PagesState extends State<Pages> {
         child: Scaffold(
           appBar: AppBar(
             title: Text(
-              "otavio - -zsh - ${_size.width}  ${_size.height} ",
+              "otavio - -zsh - ${_size.width.truncate()}  ${_size.height.truncate()} ",
               style: TextStyle(
                   color: Colors.green,
                   fontWeight: FontWeight.bold,
