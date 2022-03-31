@@ -18,6 +18,7 @@ jobs:
       - run: flutter pub get
       - run: flutter build web --release
       - run: |
+          cp /static/CNAME /build/web
           cd build/web
           git init
           git config --global user.email otaviomiguel19@gmail.com
@@ -26,6 +27,5 @@ jobs:
           git remote add origin https://${{secrets.commit_secret}}@github.com/OtavioMiguel19/otavio_website
           git checkout -b gh-pages
           git add --all
-          git add static/CNAME
           git commit -m "update"
           git push origin gh-pages -f
