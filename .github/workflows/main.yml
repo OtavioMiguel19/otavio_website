@@ -26,6 +26,6 @@ jobs:
           git remote add origin https://${{secrets.commit_secret}}@github.com/OtavioMiguel19/otavio_website
           git checkout -b gh-pages
           git add --all
+          git add static/CNAME
           git commit -m "update"
-          git fetch
-          git push origin gh-pages
+          git push origin gh-pages -f
