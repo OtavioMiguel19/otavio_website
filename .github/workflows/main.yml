@@ -18,7 +18,7 @@ jobs:
       - run: flutter pub get
       - run: flutter build web --release
       - run: |
-          cp /static/CNAME /build/web
+          cp static/CNAME build/web
           cd build/web
           git init
           git config --global user.email otaviomiguel19@gmail.com
