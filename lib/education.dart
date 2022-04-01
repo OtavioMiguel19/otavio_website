@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import 'endline.dart';
+import 'text_highlight.dart';
 
 class EducationPage extends StatelessWidget {
   final DateTime _dateTime;
@@ -22,18 +23,18 @@ class EducationPage extends StatelessWidget {
             const Text("otavio@OtavioMiguel.com ~ %"),
             const Text("otavio@OtavioMiguel.com ~ % echo \$UNIVERSITY"),
             const Text(""),
-            const Text("    =========================================="),
-            const Text("    ================== UTFPR ================="),
-            const Text("    ==== Federal University of Technology ===="),
-            const Text("    ========== Computer Engineering =========="),
-            const Text("    =========================================="),
+            const TextHighlight("    =========================================="),
+            const TextHighlight("    ================== UTFPR ================="),
+            const TextHighlight("    ==== Federal University of Technology ===="),
+            const TextHighlight("    ========== Computer Engineering =========="),
+            const TextHighlight("    =========================================="),
             const Text(""),
             const Text("otavio@OtavioMiguel.com ~ % echo \$HIGH_SCHOOL"),
             const Text(""),
-            const Text("    =========================================="),
-            const Text("    ================== ETEC =================="),
-            const Text("    ======== Augusto Tortolero Araújo ========"),
-            const Text("    =========================================="),
+            const TextHighlight("    =========================================="),
+            const TextHighlight("    ================== ETEC =================="),
+            const TextHighlight("    ======== Augusto Tortolero Araújo ========"),
+            const TextHighlight("    =========================================="),
             const Text(""),
             const Text("otavio@OtavioMiguel.com ~ %"),
             const Text("otavio@OtavioMiguel.com ~ %"),

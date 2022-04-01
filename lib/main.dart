@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.black,
         textTheme: TextTheme(
             bodyText2: TextStyle(
-                color: Colors.green,
+                color: Colors.lightGreenAccent[700],
                 fontFamily: GoogleFonts.robotoMono().fontFamily),),
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.lightGreen,
       ),
       home: Pages(_dateTime),
     );

@@ -42,7 +42,7 @@ class _PagesState extends State<Pages> {
             title: Text(
               "otavio - -zsh - ${_size.width.truncate()}  ${_size.height.truncate()} ",
               style: TextStyle(
-                  color: Colors.green,
+                  color: Colors.lightGreenAccent[700],
                   fontWeight: FontWeight.bold,
                   fontFamily: GoogleFonts.robotoMono().fontFamily),
             ),
@@ -54,31 +54,31 @@ class _PagesState extends State<Pages> {
               Text(
                 "Basic Info",
                 style: TextStyle(
-                    color: Colors.green,
+                    color: Colors.lightGreenAccent[700],
                     fontFamily: GoogleFonts.robotoMono().fontFamily),
               ),
               Text(
                 "Projects",
                 style: TextStyle(
-                    color: Colors.green,
+                    color: Colors.lightGreenAccent[700],
                     fontFamily: GoogleFonts.robotoMono().fontFamily),
               ),
               Text(
                 "Education",
                 style: TextStyle(
-                    color: Colors.green,
+                    color: Colors.lightGreenAccent[700],
                     fontFamily: GoogleFonts.robotoMono().fontFamily),
               ),
               Text(
                 "Studies",
                 style: TextStyle(
-                    color: Colors.green,
+                    color: Colors.lightGreenAccent[700],
                     fontFamily: GoogleFonts.robotoMono().fontFamily),
               ),
               Text(
                 "Professional Experiences",
                 style: TextStyle(
-                    color: Colors.green,
+                    color: Colors.lightGreenAccent[700],
                     fontFamily: GoogleFonts.robotoMono().fontFamily),
               ),
             ]),
