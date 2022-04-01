@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:otavio_website/education.dart';
@@ -48,9 +49,7 @@ class _PagesState extends State<Pages> {
             ),
             centerTitle: true,
             backgroundColor: Colors.black,
-            bottom: TabBar(
-              indicatorWeight: 1,
-              tabs: [
+            bottom: TabBar(isScrollable: true, indicatorWeight: 1, tabs: [
               Text(
                 "Basic Info",
                 style: TextStyle(
